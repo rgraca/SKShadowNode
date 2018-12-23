@@ -62,10 +62,6 @@
 	[super removeFromParent];
 }
 
-- (void) dealloc {
-	NSLog(@"SKShadowNode dealloc");
-	[super dealloc];
-}
 
 - (void) showShadowWithAnimationDuration:(NSTimeInterval)duration completion:(void (^)(void))block {
 	if (self.shadowApplied) {
